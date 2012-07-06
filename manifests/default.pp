@@ -7,7 +7,11 @@ node default {
     'gradle': ;
     'clone-workspace-scm': ;
     'job-import-plugin': ;
-  }
+  } 
+   package {
+    "git-core" :
+      ensure => installed;
+   }
   user {"jenkins":
     ensure => present,
     shell  => '/bin/bash',

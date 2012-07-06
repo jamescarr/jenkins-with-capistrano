@@ -1,0 +1,9 @@
+[submodule "manifests/modules/jenkins"]
+	path = manifests/modules/jenkins
+	url = git://github.com/rtyler/puppet-jenkins.git
+[submodule "manifests/modules/stdlib"]
+	path = manifests/modules/stdlib
+	url = https://github.com/puppetlabs/puppetlabs-stdlib.git
+[submodule "manifests/modules/rvm"]
+	path = manifests/modules/rvm
+	url = git://github.com/blt04/puppet-rvm.git

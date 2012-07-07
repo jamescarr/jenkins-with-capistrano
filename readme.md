@@ -3,6 +3,10 @@ Vagrant box with puppet to configure a box with the jenkins setup I
 typically use for CI with cap based deployments.
 
 ## Running It
-This uses RVM, which sadly requires to be provisioned twice for it to
-work. There's a script called runit.sh in the root dir that will call
-``vagrant up && vagrant provision`` so that the provisioner runs twice. 
+Just clone this repository and run ``vagrant up``. When it's done,
+navigate to http://localhost:8080 to see your running jenkins instance!
+
+## Requirements
+
+[Vagrant](http://vagrantup.com/)
+[Virtual Box](https://www.virtualbox.org/wiki/Downloads)
